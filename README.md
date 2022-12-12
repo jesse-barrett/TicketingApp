@@ -1,5 +1,5 @@
 # TicketingApp
-
+**WARNING:** the firebase link chooses to load an old ionic project sometimes. If this happens just try reloading, re-entering the url, or using the back arrow.
 Firebase Link: https://n423-jb-fd21e.web.app/
 
 ## Summary
