@@ -1,0 +1,441 @@
+/* site reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+  /* margin-bottom: 16px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app {
+  transition: * 0.3s;
+}
+/* end */
+
+/* navigation styles */
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8F75E5;
+  color: white;
+}
+nav h2 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+#logout {
+  background: none;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+}
+#logout:hover {
+  cursor: pointer;
+}
+/* end */
+
+/* basic styles */
+.flex {
+  display: flex;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.space-between {
+  justify-content: space-between;
+}
+.column {
+  flex-direction: column;
+}
+.full-height {
+  height: 100%;
+}
+/* end */
+
+/* company ticket page styles */
+.company-tickets {
+  width: 100%;
+  display: flex;
+}
+#allTickets {
+  height: 100%;
+  width: 20%;
+  background-color: gainsboro;
+}
+.ticket-card {
+  width: 90%;
+  margin: 10px auto;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.ticket-card:hover {
+  cursor: pointer;
+}
+.status {
+  height: 20px;
+  background-color: gold;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ticket-card h2 {
+  padding: 10px;
+}
+.ticket-card h3 {
+  padding: 10px;
+}
+#viewTicket {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.ticketHeader {
+  width: 100%;
+  padding: 20px;
+}
+.ticketHeader div {
+  display: flex;  
+}
+.ticketHeader div h1 {
+  align-self: flex-end;
+}
+.ticketHeader div h3 {
+  margin-left: 25px;
+  align-self: flex-end;
+}
+.reply {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #75BAE5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.reply:hover {
+  cursor: pointer;
+}
+.reply ion-icon {
+  fill: white;
+  font-size: 40px;
+}
+.close {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #75BAE5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-right: 10px;
+}
+.close:hover {
+  cursor: pointer;
+}
+.close ion-icon {
+  fill: white;
+  font-size: 40px;
+}
+#reply-box {
+  display: none;
+}
+.ticketBody {
+  height: 100%;
+  padding: 20px;
+  background-color: #F8F8F8;
+}
+.ticketBody p {
+  margin-bottom: 20px;
+}
+.ticketBody hr {
+  margin-bottom: 20px;
+}
+/* end */
+
+/* styles for the home page */
+.home-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.home-content div {
+  text-align: center;
+}
+.options {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company {
+  width: 200px;
+  height: 200px;
+  background-color: #8F75E5;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.client {
+  width: 200px;
+  height: 200px;
+  background-color: #6DD59D;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* end */
+
+/* styles for the company login page */
+.company-login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.company-login h1 {
+  margin-bottom: 20px;
+}
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#login {
+  background-color:#8F75E5;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  margin-bottom: 20px;
+}
+#login:hover {
+  cursor: pointer;
+}
+.back {
+  background-color: gray;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  width: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+/* end */
+
+/* styling for the company sign-up page */
+.company-signup {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.company-signup h1 {
+  margin-bottom: 20px;
+}
+#signup {
+  background-color:#8F75E5;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  margin-bottom: 20px;
+}
+/* end */
+
+/* styling for the client sign-up page */
+.client-signup {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.client-signup h1 {
+  margin-bottom: 20px;
+}
+/* end */
+
+/* styling for the client login page */
+.client-login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.client-login h1 {
+  margin-bottom: 20px;
+}
+/* end */
+
+/* styling for the client tickets page */
+.client-tickets {
+
+}
+.client-header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.client-header h1 {
+  align-self: flex-end;
+}
+.add-ticket {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color:#6DD59D;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.add-ticket:hover {
+  cursor: pointer;
+}
+.add-ticket ion-icon {
+  fill: white;
+  font-size: 40px;
+}
+.client-tickets hr {
+  width: 98%;
+  margin: 0 auto;
+}
+.client-card {
+  width: 90%;
+  margin: 10px auto;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.client-card .client-card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.client-card .client-card-header h2 {
+  align-self: flex-end;
+}
+.client-card .client-card-content {
+  background-color: #F8F8F8;
+  padding: 10px;
+}
+.client-card .client-card-content p {
+  margin-bottom: 10px;
+}
+.client-card .client-card-content hr {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#nevermind {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #75BAE5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-right: 10px;
+}
+#nevermind:hover {
+  cursor: pointer;
+}
+#nevermind ion-icon {
+  fill: white;
+  font-size: 40px;
+}
+/* end */
+
+/* styling for the new ticket page */
+.new-ticket {
+  height: 100%;
+}
+.new-ticket hr {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.new-ticket-form {
+  display: flex;
+  flex-direction: column;  
+  padding: 20px;
+}
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#createTicket {
+  background-color:#8F75E5;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  margin-bottom: 20px;
+}
+/* end */
+#reply-box {
+  display: flex;
+  flex-direction: column;
+}
+.submit-reply {
+  background-color:#8F75E5;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  margin-bottom: 20px;
+}

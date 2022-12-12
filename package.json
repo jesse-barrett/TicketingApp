@@ -1,0 +1,22 @@
+{
+  "name": "ticketingapp",
+  "version": "1.0.0",
+  "description": "ticketing application for n423 final",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server dist",
+    "build": "webpack"
+  },
+  "author": "Jesse Barrett",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "firebase": "^9.14.0"
+  }
+}
