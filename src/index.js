@@ -384,7 +384,7 @@ async function viewTicket(id) {
 
 function showReplyBox() {
   //show the reply box at the top of the ticket content viewport
-  $("#reply-box").css("display", "block");
+  $("#reply-box").css("display", "flex");
 }
 
 async function updateTicket(e) {

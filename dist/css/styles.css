@@ -153,6 +153,7 @@ nav h2 {
 }
 #reply-box {
   display: none;
+  flex-direction: column;
 }
 .ticketBody {
   height: 100%;
@@ -425,10 +426,6 @@ textarea {
   margin-bottom: 20px;
 }
 /* end */
-#reply-box {
-  display: flex;
-  flex-direction: column;
-}
 .submit-reply {
   background-color:#8F75E5;
   border: none;
